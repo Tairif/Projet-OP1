@@ -565,6 +565,9 @@ footer .bottom-container ul{
 }
 /* Responsive pour mobile 768px */
 @media (max-width: 768px){
+  .main-container{
+    padding: 0;
+  }
   nav {
     display: flex;
     flex-direction: column;
@@ -599,6 +602,9 @@ footer .bottom-container ul{
     color: #0065fc;
     border-top: none;
     border-bottom-color: #0065fc;
+}
+.start{
+  padding: 20px 20px;
 }
 
 .localisation button{
@@ -635,6 +641,15 @@ footer .bottom-container ul{
   display: grid;
   grid-template-columns:  1fr;
   gap: 20px;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .populaires-cards a {
+
+    width: 100%;
   }
   .cards-container{
     grid-template-columns:  1fr;
