@@ -422,6 +422,7 @@ footer .bottom-container ul{
 }
 }
 
+/* Format tablette */
 @media (max-width: 1024px) {
   /* Conteneur principal */
 
@@ -465,10 +466,12 @@ footer .bottom-container ul{
   /* POPULAIRES */
   .populaires-cards {
     display: flex;
-    flex-direction: column;
     gap: 15px;
   }
 
+  .populaires-cards a {
+    width: 33%;
+  }
   .populaires-cards .card {
     display: flex;
     flex-direction: row;
